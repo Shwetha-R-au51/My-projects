@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  #parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  body{
+
+    background-image: url("http://getwallpapers.com/wallpaper/full/e/3/2/610334.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+   } 
+
+  
+  #whiteBox {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  #input {
+    width: 400px;
+    height: 100px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  #submit {
+    width: fit-content;
+    height: 40px;
+    font-size: large;
+    color: white;
+    background-color: hsl(212, 6%, 45%);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #submit:hover {     /*HOVER IS SELECTOR IS USED TO SELECT ELEMENT WHEN MOUSE OVER THEM*/
+    background-color: hsl(212, 6%, 25%); 
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: 200;
+
+
+    
+  }
+  
+  #messageBox {
+    margin-top: 20px;
+    height: 16px;
+  }
