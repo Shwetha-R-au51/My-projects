@@ -1,0 +1,52 @@
+ <!DOCTYPE html> <!-- defines the documents -->
+<html lang="en"> <!-- defines the language -->
+<head>
+  <meta charset="UTF-8"> <!-- head tag defines the contains of meta data /infromation about documents  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="flashcard.png" /> <!-- defines the shortcut images adding  -->
+  <link rel="stylesheet" href="shiva.css">  <!-- defines the  html file linking with css file -->
+  <title>Flashcards</title>   <!-- defines the tiltle of documents -->
+</head>
+<body>
+
+  <main>
+    
+    <header>
+      <div class="container">  <!-- header tag defines the  header of page with title  called flashcards -->
+        <div id="header">
+          <h1>Flashcards</h1>
+          <div>
+            <button id="show_card_box">Add Card</button>  <!-- createing  new card button and delete button  with function-->
+            <button id="delete_cards">Del Cards</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section>
+      <div class="container"> <!-- container  are used to  place content together -->
+        <div id="create_card">
+          <h2>Create Flashcard</h2> <!-- h2 define html heading tag with name create flash cards  -->
+          <label for="question">Question</label>    <!-- label defines the the labels for an <input> elements -->
+          <textarea id="question" maxlength="280"></textarea>   <!-- textarea define  area for questions  with length  -->
+          <label for="answer" maxlength="280">Answer</label>
+          <br>
+          <textarea id="answer"></textarea>  <!-- defines the answer area where text writing -->
+          <div>
+            <button id="save_card">Save</button> <button id="close_card_box">Close</button>  <!-- define the save and close button -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div id="flashcards"></div>
+      </div>
+    </section>
+
+  </main>
+  
+  <script src="reddy.js"></script> <!-- linking js file -->
+</body>
+</html>

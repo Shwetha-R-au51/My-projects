@@ -1,0 +1,21 @@
+*AN application that is let's you create flashcards on the fly , so put away those papers flashcards,
+ thers is simply way read that notes with cards 
+
+ *file type which i used in this project arre  html file and css for styleing purposs and important one is javascript for operations .
+
+ *DOM  manipulation
+ *functions
+ *control structures 
+*EventListener
+
+
+
+ *takeawys and thoughts in this projects are :
+ First off what a great looking application. It can both help students study and keep them from spending money on paper flashcards.
+  This is the first project on the list where we used flexbox so it was little challenging at first. Once I got the hang of it, however, 
+  it was actually very easy to use and it made the project a lot more dynamic.
+  In particular,I really enjoyed the align-item, flex-wrap,
+  and justify-content options because they made the flashcards responsive.
+
+
+  dom  manipulation  DOM  is document object model  a set of apis for controlling  html and styleing infromation thst makews heavy use of the documents objects 
