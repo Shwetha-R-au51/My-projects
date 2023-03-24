@@ -1,0 +1,14 @@
+*What you will build
+No more looking around the table to see who's taking care of the tip with this calculator.
+* file used html,css for styleing  and javascript for operations
+*Javascript used
+DOM manipulation
+Functions
+timers to display contains
+alert message  for amount checking 
+
+*Takeaway and thoughts
+Writing the function that determines the amount each person will tip was rather easy.
+ Perhaps the greatest challenge here was using CSS to mimic the design of the app. 
+ It looks like a rather simple design but it's actually a little challenging to do without watching the tutorial first.
+ 
